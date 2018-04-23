@@ -1,0 +1,30 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars" 
+        xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core" x:Class="WpfApplication302.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <DockPanel>
+            <dxb:ToolBarControl Caption="Edit" DockPanel.Dock="Top">
+                <dxb:BarItemSelector>
+                    <dxb:BarCheckItem Glyph="{dx:DXImage Image=3DColumn_16x16.png}"/>
+                    <dxb:BarCheckItem Glyph="{dx:DXImage Image=3DFullStackedArea_32x32.png}"/>
+                    <dxb:BarCheckItem Glyph="{dx:DXImage Image=3DClusteredColumn_16x16.png}"/>
+                </dxb:BarItemSelector>
+                <dxb:BarItemSeparator/>
+                <dxb:BarSubItem Content="DropDown">
+                    <dxb:BarItemSelector>
+                        <dxb:BarCheckItem Content="Option1"/>
+                        <dxb:BarCheckItem Content="Option2"/>
+                        <dxb:BarCheckItem Content="Option3"/>
+                    </dxb:BarItemSelector>
+                </dxb:BarSubItem>
+            </dxb:ToolBarControl>
+            <Grid/>
+        </DockPanel>
+
+
+    </Grid>
+</Window>
