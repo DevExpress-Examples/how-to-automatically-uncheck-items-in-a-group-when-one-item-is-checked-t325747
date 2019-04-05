@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [MainWindow.xaml](./CS/WpfApplication302/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfApplication302/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/WpfApplication302/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/WpfApplication302/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/WpfApplication302/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfApplication302/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to: Automatically Uncheck Items in a Group When One Item Is Checked
 
